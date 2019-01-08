@@ -1,0 +1,139 @@
+/* Universal */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+h2,
+h4 {
+  margin: 0;
+  padding: 10px 0;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  background-color: black;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  padding-left: 10px;
+}
+
+nav span {
+  text-decoration: underline;
+  padding: 10px;
+}
+
+nav a {
+  color: seashell;
+}
+
+/* Mission Section */
+
+#mission {
+  display: flex;
+  position: relative;
+  padding-top: 63px;
+  flex-direction: column;
+  background-image: url('../images/img-mission-background.jpg');
+  height: 700px;
+  width: 1200px;
+  margin: auto;
+  align-items: center;
+}
+
+.mission-content {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+
+/* Tea of the Month Section */
+
+#feature {
+  position: relative;
+  padding-top: 70px;
+  flex-direction: column;
+}
+
+.tea-images {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin: 10px;
+  justify-content: center;
+}
+
+.selection {
+  margin: 10px 15px;
+}
+
+/* Locations Section */
+
+#location {
+  position: relative;
+  top: 80px;
+  background-image: url('../images/img-locations-background.jpg');
+  height: 570px;
+  width: 1200px;
+  margin: auto;
+}
+
+#location h2 {
+  padding-top: 50px;
+}
+
+.locations-box {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  opacity: 1.0;
+  width: 300px;
+  height: 300px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+/* Contact Section */
+
+.contact {
+  display: flex;
+  position: relative;
+  top: 80px;
+  flex-direction: column;
+  height: 200px;
+}
+
+/* Footer Section */
+
+footer {
+  display: flex;
+  position: relative;
+  top: 70px;
+  margin-left: 20px;
+}
